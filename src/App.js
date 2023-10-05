@@ -5,10 +5,10 @@ import BodyContainer from "./components/BodyContainer";
 
 const AppLayout = () => {
   return (
-    <div className="app">
+    <React.Fragment>
       <Header />
       <BodyContainer />
-    </div>
+    </React.Fragment>
   );
 };
 const root = ReactDOM.createRoot(document.getElementById("root"));
